@@ -1,0 +1,118 @@
+body{
+  background-color: rgb(181, 181, 181);
+}
+input:focus{
+  outline: none;
+}
+#add-btn{
+
+  
+  font-size: 17px;
+  background-color: #0a0a0a;
+  width: 67px;
+  padding: 10px;
+  
+
+}
+.todo-list {
+  
+ 
+    margin:  4% auto;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 5px grey;
+    background-color: rgb(147, 148, 148);
+
+   
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    overflow: hidden;
+   
+    
+  }
+  
+  li {
+    box-shadow: 0px 0px 5px 5px grey;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    width: 570px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+   
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+ 
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+   input[type="text"] {
+   
+    box-shadow: 0px 0px 5px 5px grey;
+    margin-right: 8px;
+    padding: 5px;
+    width: 82%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+button {
+ 
+padding: 5px 10px;
+background-color: #0a0a0a;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.8;
+}
+.edit-btn {
+  margin-right: 10px;
+  position: absolute;
+  right: 70px;
+  
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+ 
+  margin-left: 10px;
+  background-color: rgb(197, 22, 54);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.editInput{
+  width: 480px !important;
+}
+.editing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
